@@ -16,7 +16,7 @@ A desktop e-commerce application built with Electron.
 
 ## 📦 Installation
 
-1. **Clone this repository**:
+1. **Download or Clone this repository**:
    ```bash
    git clone https://github.com/saaaa25/smarty-ecommie.git
    cd smarty-ecommie
