@@ -49,6 +49,3 @@ npm start
 └── package-lock.json   # Exact dependency versions
 ```
 
-## 🧾 License
-
-This project is open-source and available under the [MIT License](LICENSE).
