@@ -25,6 +25,13 @@ A desktop e-commerce application built with Electron.
    cd smarty-ecommie
    ```
 
+2. **Install Node.js**:
+* For macOS (using Homebrew):
+   ```bash
+   brew install node
+   ```
+   
+
 2. **Install dependencies**:
    ```bash
    npm install
