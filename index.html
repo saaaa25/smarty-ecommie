@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Commerce App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Welcome View -->
+    <div class="view active" id="welcomeView">
+        <div class="draggable"></div>
+        <div class="window-controls">
+            <img src="assets/minimize.png" class="window-btn" id="minimize-btn"></button>
+            <img src="assets/close.png" class="window-btn" id="close-btn"></button>
+        </div>
+        <div class="container">
+            <h1>Smartypants E-Commiee!</h1>
+            <button id="startAppBtn">Start Looking</button>
+        </div>
+    </div>
+
+    <!-- Search View -->
+    <div class="view" id="selectionView">
+        <div class="draggable"></div>
+        <div class="window-controls">
+            <img src="assets/minimize.png" class="window-btn" id="minimize-btn-2">
+            <img src="assets/close.png" class="window-btn" id="close-btn-2">
+        </div>
+        <div class="container">
+            <h1>Search for Products</h1>
+            <div class="search-bar-wrapper">
+                <input type="text" id="searchInput" placeholder="Type product name..." />
+                <button id="searchBtn">Search</button>
+            </div>
+            <button class="floating-back-btn back-btn">Back</button>
+        </div>
+    </div>
+
+    <!-- Page 3: Price Analysis View -->
+    <div class="view" id="analysisView">
+        <div class="draggable"></div>
+        <div class="window-controls">
+          <img src="assets/minimize.png" class="window-btn" id="minimize-btn-3">
+          <img src="assets/close.png" class="window-btn" id="close-btn-3">
+        </div>
+        <div class="container">
+          <h1 id="productTitle">Tracking Price for: ...</h1>
+          <div id="outputArea"></div>
+          <button class="floating-back-btn back-btn">Back</button>
+        </div>
+      </div>
+      
+  
+      
+    <script src="renderer.js"></script>
+</body>
+</html>
