@@ -9,10 +9,13 @@ A desktop e-commerce application built with Electron.
 - Styled with `style.css`
 - Local assets support
 
-## 🛠 Requirements
+
+- ## 🛠 Requirements
 
 - [Node.js](https://nodejs.org/) (v14 or higher recommended)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
+- [Electron](https://www.electronjs.org/) (installed via `npm install`)
+
 
 ## 📦 Installation
 
