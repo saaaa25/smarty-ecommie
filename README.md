@@ -32,7 +32,7 @@ A desktop e-commerce application built with Electron.
    ```
    
 
-2. **Install dependencies**:
+3. **Install dependencies**:
    ```bash
    npm install
    ```
