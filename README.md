@@ -91,8 +91,3 @@ npm start
 
 Developed by [saaaa25](https://github.com/saaaa25)
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
